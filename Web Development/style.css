@@ -1,0 +1,146 @@
+/* PAGE */
+body {
+  background-color: #F0D1B4
+;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* NAV BAR (THIN TOP BAR) */
+nav {
+  background-color: #A66D30;
+  padding: 6px 0;
+}
+
+/* NAV LIST */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+/* NAV BUTTONS */
+nav ul li a {
+  display: block;
+  color: #FF8D0F;
+  padding: 6px 12px;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 12px;
+
+  background-color: #d6d39a;   /* soft fill */
+  border: none;                /* removed border */
+  border-radius: 6px;
+
+  transition: all 0.2s ease;
+}
+
+/* HOVER EFFECT */
+nav ul li a:hover {
+  background-color: #EDB172; /*color of hover overlay*/
+  color: #ffffff;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* TITLE */
+h1 {
+  color: #E67802;
+  font-family: "Futura", cursive;
+  font-size: 75px;
+  margin: 0;
+}
+
+/* PARAGRAPH */
+p {
+  color: #ffffff;   /* fixed visibility */
+  text-align: center;
+  padding: 20px;
+}
+
+/* IMAGE */
+img {
+  display: block;
+  margin: 30px auto;
+  border: 15px dotted #FF7900
+;
+  padding: 5px;
+  width: 200px;
+}
+
+/* Paragraph spacing */
+main p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+/* Extra spacing for paragraph after image */
+.after-image {
+    margin-top: 2rem;
+}
+
+/* Footer styling */
+footer {
+    background-color: #f7a600;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+}
+
+/* Image styling */
+main img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+/* Canvas container */
+#canvas-container {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+/* Paragraph beneath canvas */
+.after-image {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Canvas control buttons */
+.canvas-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.canvas-controls button {
+  background-color: #ff944d;   /* warm orange */
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.canvas-controls button:hover {
+  background-color: #ffb84d;  /* lighter warm orange */
+  transform: scale(1.05);
+}
